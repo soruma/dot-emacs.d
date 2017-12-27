@@ -1,0 +1,31 @@
+# elisp install folder
+/elpa/
+
+# auto-complete
+/ac-comphist.dat
+
+# recentf
+/recentf
+
+# tramp mode
+/tramp
+
+# backup file
+/auto-save-list/
+\#*#
+*~
+
+# desktop.el
+.emacs.desktop
+.emacs.desktop.lock
+
+# temporary file
+tmp*
+abbrev_defs
+/auto-save-list/
+
+# bookmarks
+bookmarks
+
+# windows-proxy
+windows-proxy.el
