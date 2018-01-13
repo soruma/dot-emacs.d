@@ -28,7 +28,6 @@
     ignoramus
     init-loader
     json
-    markdown-edit-indirect
     neotree
     package-utils
     perspeen
@@ -63,7 +62,7 @@
  '(company-idle-delay nil)
  '(package-selected-packages
    (quote
-    (helm-ag-r elixir-yasnippets elixir-mode slim-mode ignoramus yasnippet twittering-mode swift-mode robe rbenv powerline perspeen package-utils neotree markdown-edit-indirect init-loader helm-perspeen helm gh-md enh-ruby-mode e2wm company auto-complete))))
+    (helm-ag-r elixir-yasnippets elixir-mode slim-mode ignoramus yasnippet twittering-mode swift-mode robe rbenv powerline perspeen package-utils neotree init-loader helm-perspeen helm gh-md enh-ruby-mode e2wm company auto-complete))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
