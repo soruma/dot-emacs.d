@@ -66,7 +66,7 @@
  '(helm-follow-mode-persistent t)
  '(package-selected-packages
    (quote
-    (markdown-mode magit multishell helm-ag-r elixir-yasnippets elixir-mode slim-mode ignoramus yasnippet twittering-mode swift-mode robe rbenv powerline perspeen package-utils neotree init-loader helm-perspeen helm gh-md enh-ruby-mode e2wm company auto-complete))))
+    (markdown-mode magit helm-ag-r elixir-yasnippets elixir-mode slim-mode ignoramus yasnippet twittering-mode swift-mode robe rbenv powerline perspeen package-utils neotree init-loader helm-perspeen helm gh-md enh-ruby-mode e2wm company auto-complete))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
