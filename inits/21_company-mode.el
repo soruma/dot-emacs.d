@@ -1,5 +1,4 @@
-(global-company-mode +1)
-
+(global-company-mode)
 (eval-after-load 'company
   ; ruby
   '(push 'company-robe company-backends))

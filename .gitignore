@@ -29,3 +29,6 @@ bookmarks
 
 # windows-proxy
 windows-proxy.el
+
+# eshell
+/eshell/*

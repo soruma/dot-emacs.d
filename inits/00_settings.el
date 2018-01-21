@@ -19,7 +19,7 @@
 (setq warning-suppress-types nil)
 
 ;; CamelCase
-(global-subword-mode 1)
+(global-subword-mode t)
 
 ;; path
 (dolist (dir (list
