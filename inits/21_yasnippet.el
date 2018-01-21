@@ -6,7 +6,7 @@
         ))
 
 ;; yas起動
-(yas-global-mode t)
+(yas-global-mode 1)
 
 ;; 既存スニペットを挿入する
 (define-key yas-minor-mode-map (kbd "C-x i i") 'yas-insert-snippet)

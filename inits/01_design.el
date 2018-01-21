@@ -3,10 +3,10 @@
 (enable-theme 'tango-dark)
 
 ;; ツールバー非表示
-(tool-bar-mode nil)
+(tool-bar-mode -1)
 
 ;; メニューバーを非表示
-(menu-bar-mode nil)
+(menu-bar-mode -1)
 
 ;; 行番号表示
 (global-linum-mode t)
