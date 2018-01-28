@@ -18,6 +18,7 @@
   '(
     auto-complete
     company
+    csharp-mode
     e2wm
     elixir-mode
     elixir-yasnippets
