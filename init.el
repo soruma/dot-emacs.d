@@ -67,3 +67,9 @@
  '(package-selected-packages
    (quote
     (gist markdown-mode magit helm-ag-r elixir-yasnippets elixir-mode slim-mode ignoramus yasnippet twittering-mode swift-mode robe rbenv powerline perspeen package-utils neotree init-loader helm-perspeen helm gh-md enh-ruby-mode e2wm company auto-complete))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
