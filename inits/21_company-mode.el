@@ -5,8 +5,7 @@
 
 ;; 自動補完を offにしたい場合は, company-idle-delayを nilに設定する
 ;; auto-completeでいうところの ac-auto-start にあたる.
-(custom-set-variables
- '(company-idle-delay nil))
+(setq company-idle-delay nil)
 
 (global-set-key (kbd "C-S-i") 'company-complete)
 

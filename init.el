@@ -45,10 +45,6 @@
     yasnippet
     ))
 
-(require 'init-loader)
-(setq init-loader-show-log-after-init nil)
-(init-loader-load "~/.emacs.d/inits")
-
 (let ((not-installed (loop for x in installing-package-list
                             when (not (package-installed-p x))
                             collect x)))
@@ -57,20 +53,6 @@
     (dolist (pkg not-installed)
         (package-install pkg))))
 
-
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(company-idle-delay nil)
- '(helm-follow-mode-persistent t)
- '(package-selected-packages
-   (quote
-    (gist markdown-mode magit helm-ag-r elixir-yasnippets elixir-mode slim-mode ignoramus yasnippet twittering-mode swift-mode robe rbenv powerline perspeen package-utils neotree init-loader helm-perspeen helm gh-md enh-ruby-mode e2wm company auto-complete))))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
+(require 'init-loader)
+(setq init-loader-show-log-after-init nil)
+(init-loader-load "~/.emacs.d/inits")

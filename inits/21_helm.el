@@ -15,6 +15,5 @@
 (define-key helm-find-files-map (kbd "TAB") 'helm-execute-persistent-action)
 (define-key helm-read-file-map (kbd "TAB") 'helm-execute-persistent-action)
 
-(custom-set-variables
-  ; helm-follow-mode (C-c C-f でON/OFF前回の状態を維持)
-  '(helm-follow-mode-persistent t))
+; helm-follow-mode (C-c C-f でON/OFF前回の状態を維持)
+(setq '(helm-follow-mode-persistent t))
