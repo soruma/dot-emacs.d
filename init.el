@@ -23,6 +23,7 @@
     elixir-yasnippets
     enh-ruby-mode
     gh-md
+    gist
     helm
     helm-ag
     helm-perspeen
