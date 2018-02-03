@@ -31,6 +31,7 @@
     ignoramus
     init-loader
     json
+    key-chord
     magit
     markdown-mode
     neotree
