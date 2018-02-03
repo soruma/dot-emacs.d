@@ -21,6 +21,9 @@
 ;; CamelCase
 (global-subword-mode 1)
 
+;; 月曜日始まり
+(setq calendar-week-start-day 1)
+
 ;; path
 (dolist (dir (list
               "/sbin"
