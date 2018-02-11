@@ -19,6 +19,8 @@
     auto-complete
     company
     csharp-mode
+    dired-details
+    dired-subtree
     e2wm
     elixir-mode
     elixir-yasnippets
