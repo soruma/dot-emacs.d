@@ -23,8 +23,8 @@
 tmp*
 abbrev_defs
 /auto-save-list/
-/var/
 /eshell/
+/var/
 
 # bookmarks
 bookmarks

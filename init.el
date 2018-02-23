@@ -4,6 +4,9 @@
   (if (fboundp 'normal-top-level-add-subdirs-to-load-path)
       (normal-top-level-add-subdirs-to-load-path)))
 
+;; custom-set-* がinit.elの最後に追記されてうざいので別ファイルへ
+(setq custom-file (locate-user-emacs-file "custom.el"))
+
 ;; package管理
 (require 'package)
 (add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
