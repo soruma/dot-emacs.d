@@ -27,7 +27,6 @@
     e2wm
     elixir-mode
     elixir-yasnippets
-    enh-ruby-mode
     gh-md
     gist
     helm
