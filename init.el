@@ -23,6 +23,7 @@
     company
     csharp-mode
     dired-details
+    dired-launch
     dired-subtree
     e2wm
     elixir-mode
