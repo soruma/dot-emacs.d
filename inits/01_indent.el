@@ -1,8 +1,8 @@
 ;; タブのインデントを無効化
 (setq-default indent-tabs-mode nil)
 
-;; デフォルトタブ幅 4
-(setq default-tab-width 4)
+;; デフォルトタブ幅 2
+(setq default-tab-width 2)
 
 ;; タブ, 全角スペース, 行末空白表示
 (defface my-face-b-1 '((t (:background "NavajoWhite4"))) nil) ; 全角スペース
