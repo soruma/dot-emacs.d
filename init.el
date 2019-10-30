@@ -43,6 +43,7 @@
     powerline
     pinentry
     rbenv
+    rjsx-mode
     robe
     slim-mode
     swift-mode
