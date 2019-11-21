@@ -24,6 +24,9 @@
 ;; 月曜日始まり
 (setq calendar-week-start-day 1)
 
+;; GCの閾値をデフォルトの10倍にする
+(setq gc-cons-threshold (* gc-cons-threshold 10))
+
 ;; path
 (dolist (dir (list
               "/sbin"
