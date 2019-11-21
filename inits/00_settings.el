@@ -27,6 +27,9 @@
 ;; GCの閾値をデフォルトの10倍にする
 (setq gc-cons-threshold (* gc-cons-threshold 10))
 
+;; 重複する履歴は保存しない
+(setq history-delete-duplicates t)
+
 ;; path
 (dolist (dir (list
               "/sbin"
