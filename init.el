@@ -9,8 +9,7 @@
 
 ;; package管理
 (require 'package)
-(add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))
-(add-to-list 'package-archives '("melpa-stable" . "https://stable.melpa.org/packages/"))
+(add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/") t)
 (package-initialize)
 
 (require 'cl)
@@ -20,7 +19,7 @@
     auto-complete
     company
     csharp-mode
-    dired-details
+    dired-filter
     dired-launch
     dired-subtree
     e2wm
@@ -43,10 +42,10 @@
     powerline
     pinentry
     rbenv
-    rjsx-mode
     robe
     slim-mode
     swift-mode
+    undo-tree
     twittering-mode
     yasnippet
     ))
