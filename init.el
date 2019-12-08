@@ -47,6 +47,8 @@
     swift-mode
     undo-tree
     twittering-mode
+    vue-html-mode
+    vue-mode
     yasnippet
     ))
 
