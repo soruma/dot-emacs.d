@@ -50,6 +50,7 @@
     twittering-mode
     vue-html-mode
     vue-mode
+    yard-mode
     yasnippet
     ))
 
