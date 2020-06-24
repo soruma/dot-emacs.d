@@ -5,7 +5,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (vue-mode undo-tree twittering-mode swift-mode slim-mode robe rjsx-mode rbenv powerline pinentry package-utils neotree markdown-mode magit key-chord jsx-mode init-loader ignoramus helm-perspeen helm-ag gist gh-md elixir-yasnippets elixir-mode e2wm dired-subtree dired-launch dired-icon dired-filter csharp-mode company auto-complete))))
+    (enh-ruby-mode vue-mode undo-tree typescript-mode twittering-mode swift-mode slim-mode rufo robe rjsx-mode rbenv pinentry package-utils neotree nadvice markdown-mode magit-popup magit key-chord jsx-mode init-loader ignoramus helm-perspeen helm-ag graphql gist ghub gh-md elixir-yasnippets elixir-mode e2wm dired-subtree dired-launch dired-icon dired-filter csharp-mode company auto-complete))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
