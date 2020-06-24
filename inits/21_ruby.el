@@ -1,4 +1,6 @@
 ;; rbenv setting
-(global-rbenv-mode)
+(add-hook 'enh-ruby-mode-hook 'robe-mode)
+(add-hook 'enh-ruby-mode-hook 'yard-mode)
 
-(setq ruby-insert-encoding-magic-comment nil)
+(add-to-list 'auto-mode-alist
+             '("\\(?:\\.rb\\|ru\\|rake\\|thor\\|jbuilder\\|gemspec\\|podspec\\|/\\(?:Gem\\|Rake\\|Cap\\|Thor\\|Vagrant\\|Guard\\|Pod\\)file\\)\\'" . enh-ruby-mode))
