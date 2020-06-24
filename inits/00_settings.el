@@ -47,3 +47,9 @@
    (setq exec-path (append (list dir) exec-path))))
 
 (setq require-final-newline nil)
+
+(defun my:iterm-app ()
+  "Open iterm.app with current dir."
+  (interactive)
+  (let ((dir default-directory))
+    (shell-command (concat "open -a iterm.app " dir))))
