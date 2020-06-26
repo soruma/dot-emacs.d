@@ -47,6 +47,7 @@
     slim-mode
     swift-mode
     undo-tree
+    treemacs
     twittering-mode
     vue-html-mode
     vue-mode
