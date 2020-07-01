@@ -45,6 +45,7 @@
     robe
     slim-mode
     swift-mode
+    treemacs
     undo-tree
     treemacs
     twittering-mode
