@@ -25,6 +25,8 @@ abbrev_defs
 /auto-save-list/
 /eshell/
 /var/
+/transient/
+/.cache/
 
 # bookmarks
 bookmarks
