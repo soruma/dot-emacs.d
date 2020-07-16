@@ -22,6 +22,8 @@
     dired-filter
     dired-launch
     dired-subtree
+    dockerfile-mode
+    docker-compose-mode
     elixir-mode
     elixir-yasnippets
     enh-ruby-mode
