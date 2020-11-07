@@ -30,6 +30,10 @@
 ;; 重複する履歴は保存しない
 (setq history-delete-duplicates t)
 
+;; デフォルトディレクトリはホームディレクトリ
+(setq default-directory (getenv
+  (if (eq system-type 'windows-nt) "HOMEPATH" "HOME")))
+
 ;; path
 (dolist (dir (list
               "/sbin"
