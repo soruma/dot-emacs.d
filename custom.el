@@ -4,7 +4,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
-   '(use-package yard-mode vue-mode undo-tree treemacs swift-mode slim-mode robe rjsx-mode rbenv pinentry package-utils neotree markdown-mode magit key-chord init-loader ignoramus helm-perspeen helm-ag gist gh-md enh-ruby-mode elixir-yasnippets elixir-mode dockerfile-mode docker-compose-mode docker dired-subtree dired-launch dired-filter csharp-mode company bind-key auto-complete)))
+   '(yasnippet yard-mode vue-mode vue-html-mode undo-tree treemacs swift-mode slim-mode robe rbenv pinentry powerline perspeen package-utils neotree markdown-mode magit key-chord init-loader ignoramus helm-perspeen helm-ag helm gist gh-md enh-ruby-mode elixir-yasnippets elixir-mode docker-compose-mode dockerfile-mode dired-subtree dired-launch dired-filter csharp-mode company auto-complete)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
