@@ -31,7 +31,6 @@
     gist
     helm
     helm-ag
-    helm-perspeen
     ignoramus
     init-loader
     json
@@ -40,7 +39,6 @@
     markdown-mode
     neotree
     package-utils
-    perspeen
     powerline
     pinentry
     rbenv
