@@ -52,6 +52,7 @@
     vue-mode
     yard-mode
     yasnippet
+    yatemplate
     ))
 
 (let ((not-installed (loop for x in installing-package-list

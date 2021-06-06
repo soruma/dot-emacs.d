@@ -16,3 +16,7 @@
 (define-key yas-minor-mode-map (kbd "C-x i v") 'yas-visit-snippet-file)
 
 (add-to-list 'warning-suppress-types '(yasnippet backquote-change))
+
+;; yatemplate
+(yatemplate-fill-alist)
+(auto-insert-mode 1)
