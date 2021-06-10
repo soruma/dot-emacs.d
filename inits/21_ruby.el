@@ -8,5 +8,5 @@
 (add-to-list 'auto-mode-alist
              '("\\(?:\\.rb\\|ru\\|rake\\|thor\\|jbuilder\\|gemspec\\|podspec\\|/\\(?:Gem\\|Rake\\|Cap\\|Thor\\|Vagrant\\|Guard\\|Pod\\)file\\)\\'" . enh-ruby-mode))
 
-(setq rbenv-installation-dir (concat (getenv "HOME") "/.rbenv"))
+(setq rbenv-installation-dir (concat (getenv "HOME") "/.anyenv/envs/rbenv"))
 (setq enh-ruby-program (concat rbenv-installation-dir "/shims/ruby"))
